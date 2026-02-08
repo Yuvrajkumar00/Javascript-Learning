@@ -20,6 +20,9 @@ I started learning JavaScript to improve my web development skills and to build 
 
 ## 📚 Topics Covered
 - None yet (Just started learning)
+- Variables
+- Data Types
+- Type Conversion
 
 ---
 
@@ -28,6 +31,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day | Date | Topic | Status |
 |-----|------|-------|--------|
 | Day 1 | 8 Feb 2026 | Starting JavaScript Journey | 🚀 Started |
+| Day 1 | 8 Feb 2026 | Variables, Data Types, Type Conversion | ✅ Completed |
 
 ---
 
