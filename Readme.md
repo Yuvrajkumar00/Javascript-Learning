@@ -23,6 +23,7 @@ I started learning JavaScript to improve my web development skills and to build 
 - Variables
 - Data Types
 - Type Conversion
+- Arithmetic, Relational, Unary, Assignment Operators
 
 ---
 
@@ -32,6 +33,7 @@ I started learning JavaScript to improve my web development skills and to build 
 |-----|------|-------|--------|
 | Day 1 | 8 Feb 2026 | Starting JavaScript Journey | 🚀 Started |
 | Day 1 | 8 Feb 2026 | Variables, Data Types, Type Conversion | ✅ Completed |
+| Day 2 | 9 Feb 2026 | Arithmetic, Relational, Unary, Assignment Operators | ✅ Completed |
 
 ---
 
