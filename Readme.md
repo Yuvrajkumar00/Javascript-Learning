@@ -26,6 +26,8 @@ I started learning JavaScript to improve my web development skills and to build 
 - Arithmetic, Relational, Unary, Assignment Operators
 - Number
 - Math
+- Date
+- Time
 
 ---
 
@@ -37,6 +39,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 1 | 8 Feb 2026 | Variables, Data Types, Type Conversion | ✅ Completed |
 | Day 2 | 9 Feb 2026 | Arithmetic, Relational, Unary, Assignment Operators | ✅ Completed |
 | Day 3 | 10 Feb 2026 | Number, Math | ✅ Completed |
+| Day 4 | 11 Feb 2026 | Date, Time | ⏳ In Progress |
 
 ---
 
