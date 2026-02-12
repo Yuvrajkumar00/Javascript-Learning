@@ -9,7 +9,7 @@ let date2 = new Date("February 11, 2026 23:00:00"); // Long format
 let date3 = new Date("2026/02/11 23:15:00"); // Slash format (less reliable)
 
 // 3. Numbers: new Date(year, monthIndex, day, hours, minutes, seconds, milli seconds)
-let date4 = new Date(2026, 2, 11, 23, 19, 0); // February 11, 2026, 11:19:00
+let date4 = new Date(2026, 2, 11, 23, 19, 0); // March 11, 2026, 11:19:00
 
 // 4. Milliseconds Since Epoch (Unix timestamp)
 let date5 = new Date(1770833509997); // Milliseconds since Jan 1, 1970
