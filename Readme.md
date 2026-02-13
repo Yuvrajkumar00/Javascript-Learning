@@ -28,6 +28,8 @@ I started learning JavaScript to improve my web development skills and to build 
 - Math
 - Date
 - Time
+- Logical Operators
+- Conditional Statements
 
 ---
 
@@ -41,6 +43,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 3 | 10 Feb 2026 | Number, Math | ✅ Completed |
 | Day 4 | 11 Feb 2026 | Date, Time | ⏳ In Progress |
 | Day 5 | 12 Feb 2026 | Date, Time | ⏳ In Progress |
+| Day 6 | 13 Feb 2026 | Date and Time, Logical Operators, Conditional Statements | ✅ Completed |
 
 ---
 
