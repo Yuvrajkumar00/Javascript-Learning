@@ -41,3 +41,10 @@ console.log(date.getTimezoneOffset()); // (UTC - Local Time) it means ki yah ye 
 
 // Getting Time in Milliseconds
 console.log(date.getTime()); // Milliseconds since Unix Epoch
+
+// Getting Current Time in Milliseconds
+console.log(Date.now()); 
+// Milliseconds since Unix Epoch
+// Does NOT create a Date object
+// Directly returns a number (timestamp)
+// Faster than new Date().getTime()
