@@ -31,6 +31,7 @@ I started learning JavaScript to improve my web development skills and to build 
 - Logical Operators
 - Conditional Statements
 - Iteration
+- Array
 
 ---
 
@@ -46,6 +47,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 5 | 12 Feb 2026 | Date, Time | ⏳ In Progress |
 | Day 6 | 13 Feb 2026 | Date and Time, Logical Operators, Conditional Statements | ✅ Completed |
 | Day 7 | 14 Feb 2026 | Iteration (for, while, do-while) | ✅ Completed |
+| Day 8 | 15 Feb 2026 | Arrays (splice, slice, push, pop, shift, unshift, concat, join, indexOf, includes, tostring) | ⏳ In Progress |
 
 ---
 
