@@ -49,6 +49,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 7 | 14 Feb 2026 | Iteration (for, while, do-while) | ✅ Completed |
 | Day 8 | 15 Feb 2026 | Arrays (splice, slice, push, pop, shift, unshift, concat, join, indexOf, includes, tostring) | ⏳ In Progress |
 | Day 9 | 16 Feb 2026 | Array iteration (forEach, for...of, filter) | ⏳ In Progress |
+| Day 10 | 17 Feb 2026 | map, reduce, find, some, every, sort, spread, flat, isArray, Array.from, Array.of | ✅ Completed |
 
 ---
 
