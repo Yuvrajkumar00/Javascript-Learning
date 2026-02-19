@@ -1,0 +1,2 @@
+# If you want know indepth knowledge about Shallow copy and Deep copy and also pass by value and pass by reference then read this blog:--
+[https://memory.hashnode.dev/memory-management-and-data-handling-in-javascript-in-hindi]
