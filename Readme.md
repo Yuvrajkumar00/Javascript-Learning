@@ -33,6 +33,8 @@ I started learning JavaScript to improve my web development skills and to build 
 - Iteration
 - Array
 - Object
+- Shallow Copy
+- Deep Copy
 
 ---
 
@@ -52,6 +54,14 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 9 | 16 Feb 2026 | Array iteration (forEach, for...of, filter) | ⏳ In Progress |
 | Day 10 | 17 Feb 2026 | map, reduce, find, some, every, sort, spread, flat, isArray, Array.from, Array.of | ✅ Completed |
 | Day 11 | 18 Feb 2026 | Objects and practice | ✅ Completed |
+| Day 12 | 19 Feb 2026 | Shallow Copy, Deep Copy + Blog Writing | ✅ Completed |
+
+---
+
+---
+
+## 📝 Blog
+- Shallow Copy VS Deep Copy [https://memory.hashnode.dev/memory-management-and-data-handling-in-javascript-in-hindi]
 
 ---
 
