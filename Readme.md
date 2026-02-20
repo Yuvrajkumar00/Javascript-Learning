@@ -35,6 +35,7 @@ I started learning JavaScript to improve my web development skills and to build 
 - Object
 - Shallow Copy
 - Deep Copy
+- Polyfills
 
 ---
 
@@ -55,6 +56,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 10 | 17 Feb 2026 | map, reduce, find, some, every, sort, spread, flat, isArray, Array.from, Array.of | ✅ Completed |
 | Day 11 | 18 Feb 2026 | Objects and practice | ✅ Completed |
 | Day 12 | 19 Feb 2026 | Shallow Copy, Deep Copy + Blog Writing | ✅ Completed |
+| Day 13 | 20 Feb 2026 | Polyfills (map, filter, forEach completed) | ⏳ In Progress |
 
 ---
 
