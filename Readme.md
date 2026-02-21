@@ -57,6 +57,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 11 | 18 Feb 2026 | Objects and practice | ✅ Completed |
 | Day 12 | 19 Feb 2026 | Shallow Copy, Deep Copy + Blog Writing | ✅ Completed |
 | Day 13 | 20 Feb 2026 | Polyfills (map, filter, forEach completed) | ⏳ In Progress |
+| Day 14 | 21 Feb 2026 | Blog on JavaScript Polyfills completed | ⏳ topic in progress |
 
 ---
 
@@ -64,6 +65,7 @@ I started learning JavaScript to improve my web development skills and to build 
 
 ## 📝 Blog
 - Shallow Copy VS Deep Copy [https://memory.hashnode.dev/memory-management-and-data-handling-in-javascript-in-hindi]
+- Polyfills [https://how-to-create-your-own-polyfill.hashnode.dev/how-to-create-your-own-polyfill-in-easy-way-in-hindi]
 
 ---
 
