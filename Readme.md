@@ -68,7 +68,7 @@ I started learning JavaScript to improve my web development skills and to build 
 ## 📝 Blog
 - Shallow Copy VS Deep Copy [https://memory.hashnode.dev/memory-management-and-data-handling-in-javascript-in-hindi]
 - Polyfills [https://how-to-create-your-own-polyfill.hashnode.dev/how-to-create-your-own-polyfill-in-easy-way-in-hindi]
-- Why Javascript really needs the class keyword [https://hashnode.com/edit/cmlwqx0uf010z1qlo5y30d26z]
+- Why Javascript really needs the class keyword [https://national-film-awards-show-2025.hashnode.dev/why-javascript-really-needs-the-class-keyword]
 
 ---
 
