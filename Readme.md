@@ -60,6 +60,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 13 | 20 Feb 2026 | Polyfills (map, filter, forEach completed) | ⏳ In Progress |
 | Day 14 | 21 Feb 2026 | Blog on JavaScript Polyfills completed | ⏳ topic in progress |
 | Day 15 | 22 Feb 2026 | Studied Classes & Objects + Blog on "Why JS Needs class" | ✅ Completed |
+| Day 16 | 23 Feb 2026 | Completed Constructor in JavaScript | ✅ Completed |
 
 ---
 
