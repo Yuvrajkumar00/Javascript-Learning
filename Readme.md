@@ -61,6 +61,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 14 | 21 Feb 2026 | Blog on JavaScript Polyfills completed | ⏳ topic in progress |
 | Day 15 | 22 Feb 2026 | Studied Classes & Objects + Blog on "Why JS Needs class" | ✅ Completed |
 | Day 16 | 23 Feb 2026 | Completed Constructor in JavaScript | ✅ Completed |
+| Day 17 | 24 Feb 2026 | Completed Encapsulation and Abstraction and also Write Blog on What Really Happens Behind the Scenes in class in JavaScript | ✅ Completed |
 
 ---
 
@@ -70,6 +71,7 @@ I started learning JavaScript to improve my web development skills and to build 
 - Shallow Copy VS Deep Copy [https://memory.hashnode.dev/memory-management-and-data-handling-in-javascript-in-hindi]
 - Polyfills [https://how-to-create-your-own-polyfill.hashnode.dev/how-to-create-your-own-polyfill-in-easy-way-in-hindi]
 - Why Javascript really needs the class keyword [https://national-film-awards-show-2025.hashnode.dev/why-javascript-really-needs-the-class-keyword]
+- JavaScript Classes Explained: What Really Happens Behind the Scenes? [[https://national-film-awards-show-2025.hashnode.dev/oops-behind-the-scene]]
 
 ---
 
