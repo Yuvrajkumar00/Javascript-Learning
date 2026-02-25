@@ -62,6 +62,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 15 | 22 Feb 2026 | Studied Classes & Objects + Blog on "Why JS Needs class" | ✅ Completed |
 | Day 16 | 23 Feb 2026 | Completed Constructor in JavaScript | ✅ Completed |
 | Day 17 | 24 Feb 2026 | Completed Encapsulation and Abstraction and also Write Blog on What Really Happens Behind the Scenes in class in JavaScript | ✅ Completed |
+| Day 18 | 25 Feb 2026 | Completed Inheritance in JavaScript | ✅ Completed |
 
 ---
 
