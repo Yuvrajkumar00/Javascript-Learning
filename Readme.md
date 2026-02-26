@@ -63,6 +63,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 16 | 23 Feb 2026 | Completed Constructor in JavaScript | ✅ Completed |
 | Day 17 | 24 Feb 2026 | Completed Encapsulation and Abstraction and also Write Blog on What Really Happens Behind the Scenes in class in JavaScript | ✅ Completed |
 | Day 18 | 25 Feb 2026 | Completed Inheritance in JavaScript | ✅ Completed |
+| Day 19 | 26 Feb 2026 | Writing Blog on Inheritance | ✅ Completed |
 
 ---
 
@@ -73,6 +74,7 @@ I started learning JavaScript to improve my web development skills and to build 
 - Polyfills [https://how-to-create-your-own-polyfill.hashnode.dev/how-to-create-your-own-polyfill-in-easy-way-in-hindi]
 - Why Javascript really needs the class keyword [https://national-film-awards-show-2025.hashnode.dev/why-javascript-really-needs-the-class-keyword]
 - JavaScript Classes Explained: What Really Happens Behind the Scenes? [[https://national-film-awards-show-2025.hashnode.dev/oops-behind-the-scene]]
+- Blog on Inheritance [https://national-film-awards-show-2025.hashnode.dev/inheritance-in-javascript]
 
 ---
 
