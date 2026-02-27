@@ -64,6 +64,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 17 | 24 Feb 2026 | Completed Encapsulation and Abstraction and also Write Blog on What Really Happens Behind the Scenes in class in JavaScript | ✅ Completed |
 | Day 18 | 25 Feb 2026 | Completed Inheritance in JavaScript | ✅ Completed |
 | Day 19 | 26 Feb 2026 | Writing Blog on Inheritance | ✅ Completed |
+| Day 20 | 27 Feb 2026 | Today Only Doing Revision Previous Topics | ✅ Completed |
 
 ---
 
