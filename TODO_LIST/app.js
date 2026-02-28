@@ -1,6 +1,10 @@
 let userInput = document.querySelector("#input_box");
 let addBtn = document.querySelector("#add_btn");
 let taskContainer = document.querySelector("#todo_container");
+let totalItems = document.querySelector("#totalitems");
+let completedItems = document.querySelector("#completeditems");
+let pendingItems = document.querySelector("#pendingitems");
+let deleteAllItems = document.querySelector("#delete_all_items");
 
 let currentUpdId;
 
@@ -60,6 +64,9 @@ function renderingTodo() {
         creatingTodoItems(eachItem);
     });
 
+    // showTotalItems(todos);
+    // showTotalCompletedItems(todos);
+    showStats(todos);
 }
 
 
@@ -207,6 +214,30 @@ function updateTodos(id) {
         renderingTodo();
     }
 }
+
+
+// Displaying all status
+function showStats(todos) {
+    // Displaying total items
+    totalItems.innerText = `${todos.length}`;
+
+    // Displaying total completed items
+    let completedTodo = todos.filter(todo => todo.isCompleted);
+    completedItems.innerText = `${completedTodo.length}`;
+    
+    // Displaying total pending items
+    let pendingTodo = todos.filter(todo => !todo.isCompleted);
+    pendingItems.innerText = `${pendingTodo.length}`;
+}
+
+
+// Delete all items at a one time
+deleteAllItems.addEventListener("click", () => {
+    if (confirm("Are you sure you want to delete all tasks?")) {
+        setTodos([]);
+        renderingTodo();
+    }
+})
 
 
 // Getting items from localstorage
