@@ -37,6 +37,7 @@ I started learning JavaScript to improve my web development skills and to build 
 - Deep Copy
 - Polyfills
 - Oops
+- DOM
 
 ---
 
@@ -65,6 +66,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 18 | 25 Feb 2026 | Completed Inheritance in JavaScript | ✅ Completed |
 | Day 19 | 26 Feb 2026 | Writing Blog on Inheritance | ✅ Completed |
 | Day 20 | 27 Feb 2026 | Today Only Doing Revision Previous Topics | ✅ Completed |
+| Day 21 | 04 March 2026 | Completed DOM Selection in JavaScript | ✅ Completed |
 
 ---
 
