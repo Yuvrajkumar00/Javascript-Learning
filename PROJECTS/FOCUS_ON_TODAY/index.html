@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCUS ON TODAY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CONTAINER SECTION -->
+    <div id="main-container">
+
+        <!-- LOGO SECTION -->
+        <div id="logo-container">
+            <h1 id="logo-heading">Today</h1>
+            <img src="Sun.png" alt="Image" id="logo-image">
+        </div>
+        
+        <!-- PROGRESS BAR SECTION -->
+        <div id="progress-bar-container">
+            <p id="progress-title">
+                Raise the bar by completing your goals
+            </p>
+            <div id="progress-bar">
+                <div id="progress-width">
+                    <p class="progresstext"><span id="progresscount">0</span>/3 Completed</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TASK SECTION -->
+        <div id="task-container">
+            <p id="empty-submit-error-message" class="hidden">
+                Please set all the 3 goals!
+            </p>
+
+            <div class="task">
+                <div class="checkbox" id="first-checkbox"></div>
+                <!-- <p class="content">Lorem ipsum dolor sit amet.</p> -->
+                <input type="text" class="content" id="first-task" placeholder="Add new goal..." autofocus>
+            </div>
+            <div class="task">
+                <div class="checkbox" id="second-checkbox"></div>
+                <!-- <p class="content">Lorem ipsum dolor sit amet.</p> -->
+                <input type="text" class="content" id="second-task" placeholder="Add new goal..." autofocus>
+            </div>
+            <div class="task">
+                <div class="checkbox" id="third-checkbox"></div>
+                <!-- <p class="content">Lorem ipsum dolor sit amet.</p> -->
+                <input type="text" class="content" id="third-task" placeholder="Add new goal..." autofocus>
+            </div>
+        </div>
+
+        <!-- MESSAGE SECTION -->
+        <div id="message-container">
+            <p id="message">“Move one step ahead, today!”</p>
+        </div>
+
+        <!-- CREATED BY SECTION -->
+        <div id="owner-container">
+            <p>Made with  ❤️ by Yuvraj Kumar</p>
+        </div>
+
+    </div>
+
+    <!-- <script src="app.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
