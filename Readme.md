@@ -69,6 +69,7 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 21 | 04 March 2026 | Completed DOM Selection in JavaScript | ✅ Completed |
 | Day 22 | 05 March 2026 | Completed DOM Content Manipulation in JavaScript | ✅ Completed |
 | Day 23 | 06 March 2026 | Creating a FOCUS ON TODAY Project | ⏳ In Progress |
+| Day 24 | 12 March 2026 | Completed a FOCUS ON TODAY Project | ✅ Completed |
 
 ---
 
@@ -80,6 +81,13 @@ I started learning JavaScript to improve my web development skills and to build 
 - Why Javascript really needs the class keyword [https://national-film-awards-show-2025.hashnode.dev/why-javascript-really-needs-the-class-keyword]
 - JavaScript Classes Explained: What Really Happens Behind the Scenes? [[https://national-film-awards-show-2025.hashnode.dev/oops-behind-the-scene]]
 - Blog on Inheritance [https://national-film-awards-show-2025.hashnode.dev/inheritance-in-javascript]
+
+---
+
+---
+
+## 💻 Projects
+- FOCUS ON TODAY [https://focus-on-today-sepia.vercel.app/]
 
 ---
 
