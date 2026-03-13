@@ -56,6 +56,24 @@ body {
     gap: 15px;
 }
 
+.filter-container {
+    position: relative;
+}
+#filter-options {
+    /* visibility: hidden; */
+    position: absolute;
+    top: 50px;
+}
+
+.sort-container {
+    position: relative;
+}
+#sort-options {
+    /* visibility: hidden; */
+    position: absolute;
+    top: 50px;
+}
+
 /* TASK SECTION */
 #task-list {
     /* background-color: grey; */
@@ -87,4 +105,12 @@ body {
 /* DYNAMIC CSS */
 .line-through {
     text-decoration: line-through;
+}
+
+.hide-filter-options {
+    visibility: hidden;
+}
+
+.hide-sort-options {
+    visibility: hidden;
 }

@@ -28,18 +28,59 @@
             <div class="task-control task-control-3">
                 Pending Task <span id="pending-task">0</span>
             </div>
-            <button id="filter-btn" class="btn">Filter</button>
-            <button id="sort-btn" class="btn">Sort</button>
+            <!-- FILTER SECTION -->
+            <div class="filter-container">
+                <button id="filter-btn" class="btn">Filter</button>
+
+                <!-- filter options -->
+                <div id="filter-options" class="hide-filter-options">
+
+                    <!-- option 1 -->
+                    <label>
+                        <input type="checkbox" id="filter-completed-item">
+                        Completed
+                    </label>
+
+                    <!-- option 2 -->
+                    <label>
+                        <input type="checkbox" id="filter-pending-item">
+                        Pending
+                    </label>
+
+                </div>
+            </div>
+
+            <!-- SORT SECTION -->
+            <div class="sort-container">
+                <button id="sort-btn" class="btn">Sort</button>
+                
+                <!-- sort options -->
+                <div id="sort-options" class="hide-sort-options">
+
+                    <!-- option 1 -->
+                    <label>
+                        <input type="checkbox" id="sort-ascending-order">
+                        Ascending
+                    </label>
+
+                    <!-- option 2 -->
+                    <label>
+                        <input type="checkbox" id="sort-descending-order">
+                        Descending
+                    </label>
+
+                </div>
+            </div>
         </div>
 
         <!-- TASK SECTION -->
         <ul id="task-list">
-            <li class="task-item">
+            <!-- <li class="task-item">
                 <div class="task-checkbox"></div>
                 <p class="task-text">task 1</p>
                 <button class="edit-btn btn">Edit</button>
                 <button class="delete-btn btn">Delete</button>
-            </li>
+            </li> -->
         </ul>
     </div>
 

@@ -2,7 +2,7 @@
 const state = JSON.parse(localStorage.getItem("items")) ?? {
     todos: [],
     filter: "all", // completed, pending
-    sort: "asc", // des
+    sort: "normal", // ascening, descending
 }
 
 
@@ -10,6 +10,18 @@ const state = JSON.parse(localStorage.getItem("items")) ?? {
 const userInput = document.querySelector("#input-box");
 const addBtn = document.querySelector("#add-btn");
 const taskContainer = document.querySelector("#task-list");
+const totalTask = document.querySelector("#total-task");
+const completedTask = document.querySelector("#completed-task");
+const pendingTask = document.querySelector("#pending-task");
+const filterBtn = document.querySelector("#filter-btn");
+const filterOptions = document.querySelector("#filter-options");
+const filterCompletedItems = document.querySelector("#filter-completed-item");
+const filterPendingItems = document.querySelector("#filter-pending-item");
+const sortBtn = document.querySelector("#sort-btn");
+const sortOptions = document.querySelector("#sort-options");
+const sortInDescending = document.querySelector("#sort-descending-order");
+const sortInAscending = document.querySelector("#sort-ascending-order");
+
 
 let currentEditElement;
 
@@ -74,10 +86,41 @@ function saveState() {
 function render() {
     taskContainer.innerHTML = "";
 
-    state.todos.forEach(todo => {
+    // created a copy of todos
+    let items = [...state.todos];
+
+    // ----- FILTER -----
+    if (state.filter === "completed") {
+        items = items.filter(todo => todo.completed);
+    }
+    else if (state.filter === "pending") {
+        items = items.filter(todo => !todo.completed);
+    }
+
+    // Update filter UI
+    filterCompletedItems.checked = state.filter === "completed";
+    filterPendingItems.checked = state.filter === "pending";
+
+    // ----- SORT -----
+    if (state.sort === "ascending") {
+        items.sort((a,b) => a.text.localeCompare(b.text));
+    }
+    else if (state.sort === "descending") {
+        items.sort((a,b) => b.text.localeCompare(a.text));
+    }
+    
+    // Update sort UI
+    sortInAscending.checked = state.sort === "ascending";
+    sortInDescending.checked = state.sort === "descending";
+    
+    // Render all items
+    items.forEach(todo => {
         const todoElement = createTodoElement(todo);
         taskContainer.append(todoElement);
     })
+
+    // Render controls (counts)
+    renderControls();
 }
 
 
@@ -97,7 +140,7 @@ function createTodoElement(todo) {
     checkbox.checked = todo.completed;
     li.append(checkbox);
 
-    checkbox.addEventListener("click", () => {
+    checkbox.addEventListener("change", () => {
         toggleCheckbox(todo.id);
     });
 
@@ -163,6 +206,8 @@ function deleteTask(id) {
 function editTask(id) {
     const editedElement = state.todos.find(todo => todo.id === id);
 
+    if (!editedElement) return;
+
     userInput.value = editedElement.text;
     userInput.focus();
     currentEditElement = id;
@@ -196,6 +241,100 @@ function updateTask(value) {
     saveState();
     render();
 }
+
+
+// Creating Render Controls Function
+function renderControls() {
+    countTotalTask();
+    countCompletedTask();
+    countPendingTask();
+}
+
+
+// Creating Total Task Function
+function countTotalTask() {
+    totalTask.textContent = state.todos.length;
+}
+
+
+// Creating Completed Task Function
+function countCompletedTask() {
+    completedTask.textContent = state.todos.filter(todo => todo.completed).length;
+}
+
+
+// Creating Pending Task Function
+function countPendingTask() {
+    pendingTask.textContent = state.todos.filter(todo => !todo.completed).length;
+}
+
+
+// Add Event Listner on Filter Button
+filterBtn.addEventListener("click", () => {
+    filterOptions.classList.toggle("hide-filter-options");
+})
+
+
+// Add Event Listner on Completed Item Checkbox
+filterCompletedItems.addEventListener("change", () => {
+    if(filterCompletedItems.checked) {
+        state.filter = "completed";
+    }
+    else {
+        state.filter = "all";
+    }
+
+    saveState();
+    render();
+});
+
+
+// Add Event Listner on Pending Item Checkbox
+filterPendingItems.addEventListener("change", () => {
+    if(filterPendingItems.checked) {
+        state.filter = "pending";
+    }
+    else {
+        state.filter = "all";
+    }
+
+    saveState();
+    render();
+})
+
+
+// Add Event Listner on Sort Button
+sortBtn.addEventListener("click", () => {
+    sortOptions.classList.toggle("hide-sort-options")
+})
+
+
+// Add Event Listner on Ascending Order Checkbox
+sortInAscending.addEventListener("change", () => {
+    if (sortInAscending.checked) {
+        state.sort = "ascending";
+    }
+    else {
+        state.sort = "normal";
+    }
+
+    saveState();
+    render();
+})
+
+
+// Add Event Listner on Descending Order Checkbox
+sortInDescending.addEventListener("change", () => {
+    if (sortInDescending.checked) {
+        state.sort = "descending";
+    }
+    else {
+        state.sort = "normal";
+    }
+
+    saveState();
+    render();
+})
 
 // Add Even Listner On Window
 window.addEventListener("DOMContentLoaded", render);
