@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- TODO CONTAINER -->
+    <div id="main-container">
+        <!-- TASK INPUT SECTION -->
+        <div id="task-input-container">
+            <input type="text" id="input-box" placeholder="Write a todo..." aria-label="Add new task" autofocus>
+            <button id="add-btn" class="btn">Add</button>
+        </div>
+
+        <!-- TASK CONTROLS SECTION -->
+        <div id="task-controls-container">
+            <div class="task-control task-control-1">
+                Total Task <span id="total-task">0</span>
+            </div>
+            <div class="task-control task-control-2">
+                Completed Task <span id="completed-task">0</span>
+            </div>
+            <div class="task-control task-control-3">
+                Pending Task <span id="pending-task">0</span>
+            </div>
+            <button id="filter-btn" class="btn">Filter</button>
+            <button id="sort-btn" class="btn">Sort</button>
+        </div>
+
+        <!-- TASK SECTION -->
+        <ul id="task-list">
+            <li class="task-item">
+                <div class="task-checkbox"></div>
+                <p class="task-text">task 1</p>
+                <button class="edit-btn btn">Edit</button>
+                <button class="delete-btn btn">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
