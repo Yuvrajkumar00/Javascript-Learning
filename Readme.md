@@ -70,6 +70,8 @@ I started learning JavaScript to improve my web development skills and to build 
 | Day 22 | 05 March 2026 | Completed DOM Content Manipulation in JavaScript | ✅ Completed |
 | Day 23 | 06 March 2026 | Creating a FOCUS ON TODAY Project | ⏳ In Progress |
 | Day 24 | 12 March 2026 | Completed a FOCUS ON TODAY Project | ✅ Completed |
+| Day 25 | 15 March 2026 | Completed a TODO APP Project | ✅ Completed |
+| Day 26 | 17 March 2026 | Creating a Review Collector Project | ⏳ In Progress |
 
 ---
 
@@ -88,6 +90,7 @@ I started learning JavaScript to improve my web development skills and to build 
 
 ## 💻 Projects
 - FOCUS ON TODAY [https://focus-on-today-sepia.vercel.app/]
+- TODO APP [https://todo-app-weld-xi-80.vercel.app/]
 
 ---
 
