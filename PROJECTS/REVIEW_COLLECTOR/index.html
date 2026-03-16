@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVIEW COLLECTOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <!-- REVIEW INPUT SECTION -->
+        <div id="review-input-container">
+
+            <!-- REVIEW BOX -->
+            <input type="text" id="username-box" placeholder="Write your name..." autofocus>
+            
+            <input type="text" id="profession-box" placeholder="Write your profession..." autofocus>
+            
+            <input type="text" id="review-box" placeholder="Write your review..." autofocus>
+            
+
+            <!-- RATING SECTION -->
+            <div id="rating-container">
+                <!-- rating 1 -->
+                <div class="rating-box" id="1">
+                    <img src="pending-star.png" alt="star-image">
+                </div>
+
+                <!-- rating 2 -->
+                <div class="rating-box" id="2">
+                    <img src="pending-star.png" alt="star-image">
+                </div>
+
+                <!-- rating 3 -->
+                <div class="rating-box" id="3">
+                    <img src="pending-star.png" alt="star-image">
+                </div>
+
+                <!-- rating 4 -->
+                <div class="rating-box" id="4">
+                    <img src="pending-star.png" alt="star-image">
+                </div>
+
+                <!-- rating 5 -->
+                <div class="rating-box" id="5">
+                    <img src="pending-star.png" alt="star-image">
+                </div>
+            </div>
+
+            <!-- SUBMIT BUTTON -->
+            <button id="submit-btn">Submit</button>
+
+        </div>
+
+        <!-- REVIEW RESULT SECTION -->
+        <ul id="review-result-container"></ul>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
